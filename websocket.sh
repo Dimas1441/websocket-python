@@ -14,13 +14,13 @@ namafolder="websocket-python"
 #System OpenSSH Websocket-SSH Python
 cd
 cd /etc/systemd/system/
-wget -O /etc/systemd/system/ws-openssh.service https://raw.githubusercontent.com/${GitUser}/sc/main/${namafolder}/ws-openssh.service
+wget -O /etc/systemd/system/ws-openssh.service https://raw.githubusercontent.com/${GitUser}/${namafolder}/main/ws-openssh.service
 #System Dropbear Websocket-SSH Python
-wget -O /etc/systemd/system/ws-dropbear.service https://raw.githubusercontent.com/${GitUser}/sc/main/${namafolder}/ws-dropbear.service
+wget -O /etc/systemd/system/ws-dropbear.service https://raw.githubusercontent.com/${GitUser}/${namafolder}/main/ws-dropbear.service
 #System SSL/TLS Websocket-SSH Python
-wget -O /etc/systemd/system/ws-stunnel.service https://raw.githubusercontent.com/${GitUser}/sc/main/${namafolder}/ws-stunnel.service
+wget -O /etc/systemd/system/ws-stunnel.service https://raw.githubusercontent.com/${GitUser}/${namafolder}/main/ws-stunnel.service
 ##System Websocket-OpenVPN Python
-wget -O /etc/systemd/system/ws-ovpn.service https://raw.githubusercontent.com/${GitUser}/sc/main/${namafolder}/ws-ovpn.service
+wget -O /etc/systemd/system/ws-ovpn.service https://raw.githubusercontent.com/${GitUser}/${namafolder}/main/ws-ovpn.service
 
 #Install Script Websocket-SSH Python
 cd
